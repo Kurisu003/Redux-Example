@@ -6,12 +6,6 @@ function ViewNormalSlice() {
     const dispatch = useAppDispatch();
     const users = useAppSelector((state) => state.users);
 
-    //User
-    //id: number;
-    // username: string;
-    // email: string;
-    // name: string;
-    // city: string;
     useEffect(() => {
         dispatch(
             addUsers([
